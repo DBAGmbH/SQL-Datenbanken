@@ -4,5 +4,5 @@ create table Mercedes_Benz_Projekt (
     Baujahr varchar (40),
     Preis INTEGER,
     Aufbauform varchar (40),
-
+    test INTEGER,
 );
