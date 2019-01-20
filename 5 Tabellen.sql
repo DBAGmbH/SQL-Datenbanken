@@ -1,4 +1,4 @@
-CREATE TABLE Filme
+CREATE TABLE Maschinen
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
@@ -8,7 +8,7 @@ CREATE TABLE Filme
    Veroeffentlichung DATE
 );
 
-CREATE TABLE Filme
+CREATE TABLE Kunden
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
@@ -18,7 +18,7 @@ CREATE TABLE Filme
    Veroeffentlichung DATE
 );
 
-CREATE TABLE Filme
+CREATE TABLE Fahrzeuge
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
@@ -28,7 +28,7 @@ CREATE TABLE Filme
    Veroeffentlichung DATE
 );
 
-CREATE TABLE Filme
+CREATE TABLE Mitarbeiter
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
@@ -39,7 +39,7 @@ CREATE TABLE Filme
 );
 
 
-CREATE TABLE Filme
+CREATE TABLE Vorsitzende
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
