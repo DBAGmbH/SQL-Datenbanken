@@ -18,7 +18,7 @@ CREATE TABLE Auto
 (
    AutoID VARCHAR (40),
    Autoname VARCHAR (40),
-   Motor/PS INTEGER,
+   MotorPS INTEGER,
    Austattung VARCHAR (40),
    Preis INTEGER
 );
@@ -38,6 +38,6 @@ CREATE TABLE Maschinen
    MaschinenID VARCHAR (40),
    Herstellung VARCHAR (40),
    HerstellungsID INTEGER,
-   Zustaendiger Mitarbeiter VARCHAR (40),
+   Zustaendiger_Mitarbeiter VARCHAR (40),
    Herstelldatum DATE
 );
