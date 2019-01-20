@@ -1,89 +1,43 @@
 CREATE TABLE Abteilung
 (
    AbteilungsID VARCHAR (40),
-   Genre VARCHAR (30),
-   USK INTEGER,
-   Regisseur VARCHAR (30),
-   Laenge INTEGER,
-   Veroeffentlichung DATE
+   Zustaendigkeit VARCHAR (40),
+   
+   Primary KEY
 );
 
 CREATE TABLE Kunden
 (
-   Titel VARCHAR (100),
-   Genre VARCHAR (30),
-   USK INTEGER,
-   Regisseur VARCHAR (30),
-   Laenge INTEGER,
-   Veroeffentlichung DATE
+   KundenID VARCHAR (40),
+   Einkaeufe VARCHAR (40),
+   Regisseur VARCHAR (40),
+   Bestelldatum DATE
 );
 
 CREATE TABLE Auto
 (
-   AutoID VARCHAR (100),
-   Autoname VARCHAR (30),
-   Ps INTEGER,
-   Regisseur VARCHAR (30),
-   Laenge INTEGER,
-   Veroeffentlichung DATE
+   AutoID VARCHAR (40),
+   Autoname VARCHAR (40),
+   Motor/PS INTEGER,
+   Austattung VARCHAR (40),
+   Preis INTEGER
 );
 
 CREATE TABLE Mitarbeiter
 (
-   MitarbeiterID VARCHAR (100),
-   Vorname VARCHAR (30),
+   MitarbeiterID VARCHAR (40),
+   Vorname VARCHAR (40),
    Name INTEGER,
-   Abteilung VARCHAR (30),
-   Laenge INTEGER,
-   Veroeffentlichung DATE
+   Abteilung VARCHAR (40),
+   Einkommen INTEGER,
+   Geburtsjahr DATE
 );
 
-CREATE TABLE Motoren
+CREATE TABLE Maschinen
 (
-   Titel VARCHAR (100),
-   Genre VARCHAR (30),
-   USK INTEGER,
-   Regisseur VARCHAR (30),
-   Laenge INTEGER,
-   Veroeffentlichung DATE
+   MaschinenID VARCHAR (40),
+   Herstellung VARCHAR (40),
+   HerstellungsID INTEGER,
+   Zustaendiger Mitarbeiter VARCHAR (40),
+   Herstelldatum DATE
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
