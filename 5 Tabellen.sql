@@ -1,6 +1,6 @@
-CREATE TABLE Maschinen
+CREATE TABLE Abteilung
 (
-   Titel VARCHAR (100),
+   AbteilungsID VARCHAR (40),
    Genre VARCHAR (30),
    USK INTEGER,
    Regisseur VARCHAR (30),
@@ -20,9 +20,9 @@ CREATE TABLE Kunden
 
 CREATE TABLE Fahrzeuge
 (
-   Titel VARCHAR (100),
-   Genre VARCHAR (30),
-   USK INTEGER,
+   FahrzeugID VARCHAR (100),
+   Fahrzeugname VARCHAR (30),
+   Ps INTEGER,
    Regisseur VARCHAR (30),
    Laenge INTEGER,
    Veroeffentlichung DATE
@@ -39,7 +39,7 @@ CREATE TABLE Mitarbeiter
 );
 
 
-CREATE TABLE Vorsitzende
+CREATE TABLE Chef
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
