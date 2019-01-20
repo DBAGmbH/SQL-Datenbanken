@@ -1,6 +1,5 @@
 create table Mercedes_Benz_Projekt (
-    AutoID INTEGER,
-    AbteilungsID INTEGER,
+    FahrzeugID INTEGER,
     KundenID INTEGER,
     Auto varchar (40),
     Baujahr varchar (40),
