@@ -10,4 +10,4 @@ create table Mercedes_Benz_Projekt (
 );
 
 insert into Mercedes_Benz_Projekt
-values (1,11,C-Klasse,Null,37.956.95,Coupé,1429);
+values (1,11,C-Klasse,Null,3795695,Coupé,1429);
