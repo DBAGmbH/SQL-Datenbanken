@@ -18,10 +18,10 @@ CREATE TABLE Kunden
    Veroeffentlichung DATE
 );
 
-CREATE TABLE Autos
+CREATE TABLE Auto
 (
-   FahrzeugID VARCHAR (100),
-   Fahrzeugname VARCHAR (30),
+   AutoID VARCHAR (100),
+   Autoname VARCHAR (30),
    Ps INTEGER,
    Regisseur VARCHAR (30),
    Laenge INTEGER,
@@ -30,16 +30,15 @@ CREATE TABLE Autos
 
 CREATE TABLE Mitarbeiter
 (
-   Titel VARCHAR (100),
-   Genre VARCHAR (30),
-   USK INTEGER,
-   Regisseur VARCHAR (30),
+   MitarbeiterID VARCHAR (100),
+   Vorname VARCHAR (30),
+   Name INTEGER,
+   Abteilung VARCHAR (30),
    Laenge INTEGER,
    Veroeffentlichung DATE
 );
 
-
-CREATE TABLE Chef
+CREATE TABLE Motoren
 (
    Titel VARCHAR (100),
    Genre VARCHAR (30),
@@ -48,6 +47,9 @@ CREATE TABLE Chef
    Laenge INTEGER,
    Veroeffentlichung DATE
 );
+
+
+
 
 
 
