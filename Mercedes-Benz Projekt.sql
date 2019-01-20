@@ -6,5 +6,6 @@ create table Mercedes_Benz_Projekt (
     Preis INTEGER,
     Aufbauform varchar (40),
     Verkaufszahl INTEGER,
-    PRIMARY KEY (AutoID),
+    PRIMARY KEY (FahrzeugID),
 );
+
