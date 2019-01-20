@@ -18,7 +18,7 @@ CREATE TABLE Kunden
    Veroeffentlichung DATE
 );
 
-CREATE TABLE Fahrzeuge
+CREATE TABLE Autos
 (
    FahrzeugID VARCHAR (100),
    Fahrzeugname VARCHAR (30),
