@@ -6,5 +6,5 @@ CREATE TABLE Auto
    Austattung VARCHAR (40),
    Preis INTEGER
    
-   PIMARY KEY (AutoID)
+   PRIMARY KEY (AutoID)
 );
