@@ -39,3 +39,21 @@ insert into Mercedes_Benz_Projekt
 values  (14,140,CLS,2018,6057100,Coupé,2739);
 insert into Mercedes_Benz_Projekt
 values  (15,150,B-Klasse,2017,3187115,SUV,29147);
+insert into Mercedes_Benz_Projekt
+values  (16,160,A-Klasse,2018,3091620,Limousine,123897);
+insert into Mercedes_Benz_Projekt
+values  (17,170,C-Klasse,2018,3253460,Limousine,12839);
+insert into Mercedes_Benz_Projekt
+values  (18,180,E-Klasse,2018,4486300,Limousine,7747);
+insert into Mercedes_Benz_Projekt
+values  (19,190,S-Klasse,2017,2576925,Limousine,12890);
+insert into Mercedes_Benz_Projekt
+values  (20,200,S-Klasse_Long,2018,8904175,Limousine,4728);
+insert into Mercedes_Benz_Projekt
+values  (21,210,Maybach_S-Klasse,2016,14083055,Limousine,62398);
+insert into Mercedes_Benz_Projekt
+values  (22,220,C-Klasse_T-Modell,2019,3420060,T-Modell,52378);
+insert into Mercedes_Benz_Projekt
+values  (23,230,E-Klasse_T-Modell,2015,4824855,T-Modell,1239);
+insert into Mercedes_Benz_Projekt
+values  (24,240,E-Klasse_All_terrain,2016,5828025,SUV,9272);
