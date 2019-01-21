@@ -6,3 +6,17 @@ CREATE TABLE Kunden
    
    PRIMARY KEY (KundenID)
 );
+
+
+insert into Mercedes_Benz_Projekt
+values ();
+insert into Mercedes_Benz_Projekt
+values ();
+insert into Mercedes_Benz_Projekt
+values ();
+insert into Mercedes_Benz_Projekt
+values ();
+
+
+
+
