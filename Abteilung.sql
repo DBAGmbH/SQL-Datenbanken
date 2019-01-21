@@ -9,6 +9,6 @@ CREATE TABLE Abteilung
 
 
 insert into Abteilung
-values (1,2,3,4,5,6,7);
+values (1,2,3,4,5,6);
 insert into Abteilung
-values (SUV,Cabriolets,Limosinen,T-Modelle,Coupe,Sports_Tourer);
+values (SUV,Cabriolets,Limosinen,T-Modelle,Coupe,Sport);
