@@ -33,3 +33,9 @@ insert into Mercedes_Benz_Projekt
 values (11,110,GLE_SUV,Null,6580700,SUV,19823);
 insert into Mercedes_Benz_Projekt
 values (12,120,GLS_SUV,Null,7973595,SUV,20192);
+insert into Mercedes_Benz_Projekt
+values  (13,130,A-Klasse,Null,2609075,Limousine,1237);
+insert into Mercedes_Benz_Projekt
+values  (14,140,CLS,2018,6057100,Coupé,2739);
+insert into Mercedes_Benz_Projekt
+values  (15,150,B-Klasse,2017,3187115,SUV,29147);
