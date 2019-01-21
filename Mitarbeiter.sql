@@ -6,4 +6,6 @@ CREATE TABLE Mitarbeiter
    Abteilung VARCHAR (40),
    Einkommen INTEGER,
    Geburtsjahr DATE
+   
+   PRIMARY KEY (MitarbeiterID)
 );
