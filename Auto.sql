@@ -5,4 +5,6 @@ CREATE TABLE Auto
    MotorPS INTEGER,
    Austattung VARCHAR (40),
    Preis INTEGER
+   
+   PRIMARY KEY (AutoID)
 );
