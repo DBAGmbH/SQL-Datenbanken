@@ -1,5 +1,4 @@
-CREATE TABLE Auto
-(
+CREATE TABLE Auto (
    AutoID VARCHAR (40),
    Autoname VARCHAR (40),
    MotorPS INTEGER,
