@@ -38,7 +38,7 @@ values  (13,130,A-Klasse,Null,2609075,Limousine,1237);
 insert into Mercedes_Benz_Projekt
 values  (14,140,CLS,2018,6057100,Coupé,2739);
 insert into Mercedes_Benz_Projekt
-values  (15,150,B-Klasse,2017,3187115,SUV,29147);
+values  (15,150,B-Klasse,2017,3187115,Sports_Tourer,29147);
 insert into Mercedes_Benz_Projekt
 values  (16,160,A-Klasse,2018,3091620,Limousine,123897);
 insert into Mercedes_Benz_Projekt
