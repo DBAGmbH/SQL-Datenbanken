@@ -4,5 +4,5 @@ CREATE TABLE Kunden
    Einkaeufe VARCHAR (40),
    Bestelldatum DATE
    
-   PRIMARY KEY (KundnenID)
+   PRIMARY KEY (KundenID)
 );
