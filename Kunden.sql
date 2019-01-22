@@ -10,25 +10,25 @@ CREATE TABLE Kunden
 
 
 insert into 
-values ();
+values (22,);
 insert into
-values ();
+values (33,);
 insert into
-values ();
+values (44,);
 insert into 
-values ();
+values (55,);
 insert into 
-values ();
+values (66,);
 insert into 
-values ();
+values (77,);
 insert into 
-values ();
+values (88,);
 insert into 
-values ();
+values (99,);
 insert into 
-values ();
+values (111,);
 insert into 
-values ();
+values (122,);
 
 
 
