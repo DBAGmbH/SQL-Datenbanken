@@ -7,6 +7,7 @@ create table Mercedes_Benz_Projekt (
     Aufbauform varchar (40),
     Verkaufszahl INTEGER,
     PRIMARY KEY (FahrzeugID)
+       FOREIGN KEY Abteilung(AbteilungsID)
 );
 
 insert into Mercedes_Benz_Projekt
