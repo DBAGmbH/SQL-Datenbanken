@@ -6,3 +6,27 @@ CREATE TABLE Maschinen
    Zustaendiger_Mitarbeiter VARCHAR (40),
    Herstelldatum DATE
 );
+
+insert into 
+values ();
+insert into
+values ();
+insert into
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+
+
+
