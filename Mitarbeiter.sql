@@ -9,3 +9,28 @@ CREATE TABLE Mitarbeiter
    
    PRIMARY KEY (MitarbeiterID)
 );
+
+insert into 
+values ();
+insert into
+values ();
+insert into
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+insert into 
+values ();
+
+
+
+
