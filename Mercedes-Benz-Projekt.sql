@@ -150,45 +150,45 @@ values (5,Coupe);
 insert into Abteilung
 values (6,Sport);
 insert into Mitarbeiter
-values (1,Peter,Mueller,);
+values (1,Peter,Mueller,3);
 insert into Mitarbeiter
-values (2,Michael,Schmidt,);
+values (2,Michael,Schmidt,4);
 insert into Mitarbeiter
-values (3,Thomas,Schneider,);
+values (3,Thomas,Schneider,1);
 insert into Mitarbeiter 
-values (4,Wolfgang,Fischer,);
+values (4,Wolfgang,Fischer,3);
 insert into Mitarbeiter 
-values (5,Anderas,Weber,);
+values (5,Anderas,Weber,1);
 insert into Mitarbeiter 
-values (6,Klaus,Meyer,);
+values (6,Klaus,Meyer,3);
 insert into Mitarbeiter 
-values (7,Juergen,Wagner,);
+values (7,Juergen,Wagner,1);
 insert into Mitarbeiter 
-values (8,Guenter,Becker,);
+values (8,Guenter,Becker,5);
 insert int Mitarbeiter 
-values (9,Stefan,Schulz,);
+values (9,Stefan,Schulz,2);
 insert into Mitarbeiter
-values (10,Uwe,Schaefer,);
+values (10,Uwe,Schaefer,4);
 insert into Mitarbeiter
-values (11,Christian,Koch,);
+values (11,Christian,Koch,4);
 insert into Mitarbeiter
-values (12,Werner,Bauer,);
+values (12,Werner,Bauer,5);
 insert into Mitarbeiter
-values (13,Horst,Richter,);
+values (13,Horst,Richter,2);
 insert into Mitarbeiter 
-values (14,Frank,Klein,);
+values (14,Frank,Klein,4);
 insert into Mitarbeiter 
-values (15,Dieter,Wolf,);
+values (15,Dieter,Wolf,6);
 insert into Mitarbeiter 
-values (16,Manfred,Schroeder,);
+values (16,Manfred,Schroeder,3);
 insert into Mitarbeiter 
-values (17,Gerhard,Neumann,);
+values (17,Gerhard,Neumann,6);
 insert into Mitarbeiter 
-values (18,Hans,Schwarz,);
+values (18,Hans,Schwarz,2);
 insert into Mitarbeiter 
-values (19,Bernd,Zimmermann,);
+values (19,Bernd,Zimmermann,5);
 insert into Mitarbeiter
-values (20,Thorsten,Braun,);
+values (20,Thorsten,Braun,6);
 
 
 Create View Abfrage1 as (Select * From Mercedes_Benz_Projekt Where Baujahr = 2017 and Aufbauform = SUV
