@@ -118,25 +118,25 @@ values (9,Felgen,6582,);
 insert into Maschinen 
 values (10,Reifen,3259,);
 insert into Kunden 
-values (22,C-Klasse,);
+values (22,C-Klasse,Brandt,7-11-18);
 insert into Kunden
-values (33,B-Klasse,);
+values (33,B-Klasse,Heinrich,3-8-17);
 insert into Kunden
-values (44,E-Klasse_T-Modell,);
+values (44,E-Klasse_T-Modell,Schulte,11-12-16);
 insert into Kunden 
-values (55,CLA,);
+values (55,CLA,Schreiber,26-1-19);
 insert into Kunden 
-values (66,GLS_SUV);
+values (66,GLS_SUV,Dietrich,25-6-18);
 insert into Kunden 
-values (77,CLS,);
+values (77,CLS,Sauer,13-8-17);
 insert into Kunden 
-values (88,S-Klasse_Long,);
+values (88,S-Klasse_Long,Busch,22-9-16);
 insert into Kunden 
-values (99,A-Klasse,);
+values (99,A-Klasse,Bergmann,31-3-17);
 insert into Kunden 
-values (111,GLC_SUV,);
+values (111,GLC_SUV,Feiffer,28-4-18);
 insert into Kunden 
-values (122,Maybach_S-Klasse,);
+values (122,Maybach_S-Klasse,Ziegler,29-2-18);
 insert into Abteilung
 values (1,SUV);
 insert into Abteilung
