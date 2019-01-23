@@ -170,3 +170,5 @@ insert into Mitarbeiter
 values ();
 insert into Mitarbeiter
 values ();
+
+Create View Abfrage1 as (Select * From Mercedes_Benz_Projekt Where Baujahr = 2017 and Aufbauform = SUV
