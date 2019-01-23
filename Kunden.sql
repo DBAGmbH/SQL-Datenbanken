@@ -21,7 +21,7 @@ values (66,'GLS_SUV','Dietrich','2018-06-25');
 insert into Kunden 
 values (77,'CLS','Sauer','2017-08-13');
 insert into Kunden 
-values (88,'S-Klasse_Long','Busch','2016-09-22');
+values (88,'S-Klasse_Long','Busch','2016-09-2016');
 insert into Kunden 
 values (99,'A-Klasse','Bergmann','2017-03-31');
 insert into Kunden 
