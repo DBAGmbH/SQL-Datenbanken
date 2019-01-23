@@ -1,6 +1,6 @@
 CREATE TABLE Abteilung
 (
-   AbteilungsID VARCHAR (40),
+   AbteilungsID INTEGER,
    Zustaendigkeit VARCHAR (40),
    
    PRIMARY KEY (AbteilungsID)
@@ -9,14 +9,14 @@ CREATE TABLE Abteilung
 
 
 insert into Abteilung
-values (1,SUV);
+values (1,'SUV');
 insert into Abteilung
-values (2,Cabriolets);
+values (2,'Cabriolets');
 insert into Abteilung
-values (3,Limosienen);
+values (3,'Limosienen');
 insert into Abteilung
-values (4,T-Modelle);
+values (4,'T-Modelle');
 insert into Abteilung
-values (5,Coupe);
+values (5,'Coupe');
 insert into Abteilung
-values (6,Sport);
+values (6,'Sport');
