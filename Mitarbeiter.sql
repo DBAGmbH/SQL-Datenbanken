@@ -10,25 +10,25 @@ CREATE TABLE Mitarbeiter
    PRIMARY KEY (MitarbeiterID)
 );
 
-insert into 
+insert into Mitarbeiter
 values ();
-insert into
+insert into Mitarbeiter
 values ();
-insert into
+insert into Mitarbeiter
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter 
 values ();
-insert into 
+insert into Mitarbeiter
 values ();
 
 
