@@ -118,25 +118,25 @@ values (9,Felgen,6582,);
 insert into Maschinen 
 values (10,Reifen,3259,);
 insert into Kunden 
-values (22,);
+values (22,C-Klasse,);
 insert into Kunden
-values (33,);
+values (33,B-Klasse,);
 insert into Kunden
-values (44,);
+values (44,E-Klasse_T-Modell,);
 insert into Kunden 
-values (55,);
+values (55,CLA,);
 insert into Kunden 
-values (66,);
+values (66,GLS_SUV);
 insert into Kunden 
-values (77,);
+values (77,CLS,);
 insert into Kunden 
-values (88,);
+values (88,S-Klasse_Long,);
 insert into Kunden 
-values (99,);
+values (99,A-Klasse,);
 insert into Kunden 
-values (111,);
+values (111,GLC_SUV,);
 insert into Kunden 
-values (122,);
+values (122,Maybach_S-Klasse,);
 insert into Abteilung
 values (1,SUV);
 insert into Abteilung
