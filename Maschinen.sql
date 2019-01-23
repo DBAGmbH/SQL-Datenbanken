@@ -7,25 +7,25 @@ CREATE TABLE Maschinen
    Herstelldatum DATE
 );
 
-insert into 
+insert into Maschinen
 values (1,Auspuffanlage,1453,);
-insert into
+insert into Maschinen
 values (2,Kuehlung,3245,);
-insert into
+insert into Maschinen
 values (3,Kuplung,8567,);
-insert into 
+insert into Maschinen
 values (4,Achsantrieb,7403,);
-insert into 
+insert into Maschinen 
 values (5,Karosserie,8763,);
-insert into 
+insert into Maschinen 
 values (6,Bremsanlage,7197,);
-insert into 
+insert into Maschinen 
 values (7,Stossdaempfer,1495,);
-insert into 
+insert into Maschinen
 values (8,Riementrieb,6573,);
-insert into 
+insert into Maschinen 
 values (9,Felgen,6582,);
-insert into 
+insert into Maschinen 
 values (10,Reifen,3259,);
 
 
