@@ -98,3 +98,75 @@ insert into Mercedes_Benz_Projekt
 values  (23,230,E-Klasse_T-Modell,2015,4824855,T-Modell,1239);
 insert into Mercedes_Benz_Projekt
 values  (24,240,E-Klasse_All_terrain,2016,5828025,SUV,9272);
+insert into Maschinen
+values (1,Auspuffanlage,1453,);
+insert into Maschinen
+values (2,Kuehlung,3245,);
+insert into Maschinen
+values (3,Kuplung,8567,);
+insert into Maschinen
+values (4,Achsantrieb,7403,);
+insert into Maschinen 
+values (5,Karosserie,8763,);
+insert into Maschinen 
+values (6,Bremsanlage,7197,);
+insert into Maschinen 
+values (7,Stossdaempfer,1495,);
+insert into Maschinen
+values (8,Riementrieb,6573,);
+insert into Maschinen 
+values (9,Felgen,6582,);
+insert into Maschinen 
+values (10,Reifen,3259,);
+insert into Kunden 
+values (22,);
+insert into Kunden
+values (33,);
+insert into Kunden
+values (44,);
+insert into Kunden 
+values (55,);
+insert into Kunden 
+values (66,);
+insert into Kunden 
+values (77,);
+insert into Kunden 
+values (88,);
+insert into Kunden 
+values (99,);
+insert into Kunden 
+values (111,);
+insert into Kunden 
+values (122,);
+insert into Abteilung
+values (1,SUV);
+insert into Abteilung
+values (2,Cabriolets);
+insert into Abteilung
+values (3,Limosienen);
+insert into Abteilung
+values (4,T-Modelle);
+insert into Abteilung
+values (5,Coupe);
+insert into Abteilung
+values (6,Sport);
+insert into Mitarbeiter
+values ();
+insert into Mitarbeiter
+values ();
+insert into Mitarbeiter
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter 
+values ();
+insert into Mitarbeiter
+values ();
