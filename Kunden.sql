@@ -9,25 +9,25 @@ CREATE TABLE Kunden
 );
 
 
-insert into 
+insert into Kunden 
 values (22,);
-insert into
+insert into Kunden
 values (33,);
-insert into
+insert into Kunden
 values (44,);
-insert into 
+insert into Kunden 
 values (55,);
-insert into 
+insert into Kunden 
 values (66,);
-insert into 
+insert into Kunden 
 values (77,);
-insert into 
+insert into Kunden 
 values (88,);
-insert into 
+insert into Kunden 
 values (99,);
-insert into 
+insert into Kunden 
 values (111,);
-insert into 
+insert into Kunden 
 values (122,);
 
 

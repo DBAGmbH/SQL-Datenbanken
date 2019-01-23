@@ -7,7 +7,48 @@ create table Mercedes_Benz_Projekt (
     Aufbauform varchar (40),
     Verkaufszahl INTEGER,
     PRIMARY KEY (FahrzeugID)
-    FOREIGN KEY Abteilung(AbteilungsID)
+);
+
+CREATE TABLE Maschinen
+(
+   MaschinenID VARCHAR (40),
+   Herstellung VARCHAR (40),
+   HerstellungsID NUMERIC,
+   Zustaendiger_Mitarbeiter VARCHAR (40),
+   Herstelldatum DATE
+    
+    PRIMARY KEY (MaschinenID)
+);
+
+CREATE TABLE Kunden
+(
+   KundenID VARCHAR (40),
+   Einkaeufe VARCHAR (40),
+   Nachname VARCHAR (40),
+   Bestelldatum DATE
+   
+   PRIMARY KEY (KundenID)
+);
+
+CREATE TABLE Abteilung
+(
+   AbteilungsID VARCHAR (40),
+   Zustaendigkeit VARCHAR (40),
+   
+   PRIMARY KEY (AbteilungsID)
+      
+);
+
+CREATE TABLE Mitarbeiter
+(
+   MitarbeiterID VARCHAR (40),
+   Vorname VARCHAR (40),
+   Name INTEGER,
+   Abteilung VARCHAR (40),
+   Einkommen INTEGER,
+   Geburtsjahr DATE
+   
+   PRIMARY KEY (MitarbeiterID)
 );
 
 insert into Mercedes_Benz_Projekt
@@ -58,3 +99,97 @@ insert into Mercedes_Benz_Projekt
 values  (23,230,E-Klasse_T-Modell,2015,4824855,T-Modell,1239);
 insert into Mercedes_Benz_Projekt
 values  (24,240,E-Klasse_All_terrain,2016,5828025,SUV,9272);
+insert into Maschinen
+values (1,Auspuffanlage,1453,Peter_Mueller,6-3-18);
+insert into Maschinen
+values (2,Kuehlung,3245,Michael_Weber,2-6-17);
+insert into Maschinen
+values (3,Kuplung,8567,Thomas_Schneider,8-5-18);
+insert into Maschinen
+values (4,Achsantrieb,7403,Wolfgang_Fischer,5-1-19);
+insert into Maschinen 
+values (5,Karosserie,8763,Andreas_Weber,4-1-19);
+insert into Maschinen 
+values (6,Bremsanlage,7197,Klaus_Koch,5-8-19);
+insert into Maschinen 
+values (7,Stossdaempfer,1495,Juergen_Wagner,22-2-19);
+insert into Maschinen
+values (8,Riementrieb,6573,Guenter_Becker,13-3-19);
+insert into Maschinen 
+values (9,Felgen,6582,Stefan_Mueller,5-3-18);
+insert into Maschinen 
+values (10,Reifen,3259,Christian_Koch,8-8-17);
+insert into Kunden 
+values (22,C-Klasse,Brandt,7-11-18);
+insert into Kunden
+values (33,B-Klasse,Heinrich,3-8-17);
+insert into Kunden
+values (44,E-Klasse_T-Modell,Schulte,11-12-16);
+insert into Kunden 
+values (55,CLA,Schreiber,26-1-19);
+insert into Kunden 
+values (66,GLS_SUV,Dietrich,25-6-18);
+insert into Kunden 
+values (77,CLS,Sauer,13-8-17);
+insert into Kunden 
+values (88,S-Klasse_Long,Busch,22-9-16);
+insert into Kunden 
+values (99,A-Klasse,Bergmann,31-3-17);
+insert into Kunden 
+values (111,GLC_SUV,Feiffer,28-4-18);
+insert into Kunden 
+values (122,Maybach_S-Klasse,Ziegler,29-2-18);
+insert into Abteilung
+values (1,SUV);
+insert into Abteilung
+values (2,Cabriolets);
+insert into Abteilung
+values (3,Limosienen);
+insert into Abteilung
+values (4,T-Modelle);
+insert into Abteilung
+values (5,Coupe);
+insert into Abteilung
+values (6,Sport);
+insert into Mitarbeiter
+values (1,Peter,Mueller,3,5000,1965);
+insert into Mitarbeiter
+values (2,Michael,Schmidt,4,6800,1971);
+insert into Mitarbeiter
+values (3,Thomas,Schneider,1,7000,1969);
+insert into Mitarbeiter 
+values (4,Wolfgang,Fischer,3,5000,1974);
+insert into Mitarbeiter 
+values (5,Anderas,Weber,1,7000,1983);
+insert into Mitarbeiter 
+values (6,Klaus,Meyer,3,5000,1979);
+insert into Mitarbeiter 
+values (7,Juergen,Wagner,1,7000,1963);
+insert into Mitarbeiter 
+values (8,Guenter,Becker,5,5000,1977);
+insert int Mitarbeiter 
+values (9,Stefan,Schulz,2,5500,1995);
+insert into Mitarbeiter
+values (10,Uwe,Schaefer,4,6800,1978);
+insert into Mitarbeiter
+values (11,Christian,Koch,4,6800,1988);
+insert into Mitarbeiter
+values (12,Werner,Bauer,5,5000,1999);
+insert into Mitarbeiter
+values (13,Horst,Richter,2,5500,1986);
+insert into Mitarbeiter 
+values (14,Frank,Klein,4,6800,1976);
+insert into Mitarbeiter 
+values (15,Dieter,Wolf,6,6600,1985);
+insert into Mitarbeiter 
+values (16,Manfred,Schroeder,3,5000,1975);
+insert into Mitarbeiter 
+values (17,Gerhard,Neumann,6,6600,1981);
+insert into Mitarbeiter 
+values (18,Hans,Schwarz,2,5500,1989);
+insert into Mitarbeiter 
+values (19,Bernd,Zimmermann,5,5000,1966);
+insert into Mitarbeiter
+values (20,Thorsten,Braun,6,6600,1987);
+
+Create View Abfrage1 as (Select * From Mercedes_Benz_Projekt Where Baujahr = 2017 and Aufbauform = SUV
