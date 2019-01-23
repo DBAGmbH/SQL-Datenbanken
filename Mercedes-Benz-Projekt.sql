@@ -167,7 +167,7 @@ insert into Mitarbeiter
 values (7,Juergen,Wagner,1,7000,1963);
 insert into Mitarbeiter 
 values (8,Guenter,Becker,5,5000,1977);
-insert int Mitarbeiter 
+insert into Mitarbeiter 
 values (9,Stefan,Schulz,2,5500,1995);
 insert into Mitarbeiter
 values (10,Uwe,Schaefer,4,6800,1978);
